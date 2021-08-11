@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+form input{
+    display: block;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.form_a{
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.form_a:hover{
+    color: blueviolet;
+}
+/* trang chu */
+.img_index{
+height: 300px;
+width: 100%;
+background-image: url(img/banner-hoa-qua-sach-fuji.jpg);
+background-size: 100% 100%;
+border-radius: 10px;
+background-repeat: no-repeat;
+}
+.h_son{
+height: 50px;
+line-height: 50px;
+}
+.icon_btn ul li a i{
+font-size: 24px;
+}
+.product_son{
+overflow: hidden;
+position: relative;
+}
+.product_son img{
+transition: all 0.8s ease-in-out;
+border-radius: 10px;
+display: block;
+}
+nav ul li a:hover{
+color: orange;
+}
+
+/* ft */
+.footer .ft_son .bxs-truck{
+    font-size: 60px;
+    color: white;
+}
+footer{
+    background: tomato;
+    border-radius: 10px;
+    
+}
+.footer .ft_son .bxs-map{
+    font-size: 60px;
+    color: white;
+}
+.footer .ft_son .bx-phone-call{
+    font-size: 60px;
+    color: white;
+}
+.bxl-facebook-square{
+    color: rgb(53, 88, 240);
+}

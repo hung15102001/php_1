@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 0; */
+}
+body{
+    background: rgb(236, 227, 245);
+    font-family: sans-serif;
+}
+#content1{
+    max-width: 1000px;
+    height: auto;
+    display: block;
+}
+table{
+    width: 900px;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+select{
+    width: 20%;
+    padding: 5px 18px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+/* trang chu */
+.img_index{
+    height: 400px;
+    width: 100%;
+    background-image: url(img/banner_index.jpg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.h_son{
+    height: 50px;
+    line-height: 50px;
+}
+.icon_btn ul li a i{
+    font-size: 24px;
+}
+.product_son{
+    overflow: hidden;
+    position: relative;
+}
+.product_son img{
+    transition: all 0.8s ease-in-out;
+    border-radius: 10px;
+    display: block;
+}
+nav ul li a:hover{
+    color: orange;
+}
+
+.show_sp i{
+    position: absolute;
+    font-size: 52px;
+    display: none;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.8s ease-in-out;
+    color: rebeccapurple;
+}
+.product_son img{
+    max-width: 100%;
+    height: 300px;
+}
+.product .product_son img:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.product_son:hover .show_sp i{
+    display: block;
+}
+.show{
+    display: block;
+}
+/* show category */
+.show_sp span{
+    position:absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.8s ease-in-out;
+    color: orange;
+    width: 180px;
+    height: 40px;
+    border: 1px solid green;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    background: green;
+    line-height: 20px;
+}
+.product .product_son:hover .show_sp span{
+    bottom: 30%;
+}
+.text_pro:hover{
+    background: greenyellow;
+    color: black;
+}
+.icon_btn i:hover{
+    color: orange;
+}
+/* end main */
+.footer .ft_son .bxs-truck{
+    font-size: 60px;
+    color: white;
+}
+footer{
+    background: tomato;
+    border-radius: 10px;
+    
+}
+.footer .ft_son .bxs-map{
+    font-size: 60px;
+    color: white;
+}
+.footer .ft_son .bx-phone-call{
+    font-size: 60px;
+    color: white;
+}
+.bxl-facebook-square{
+    color: rgb(53, 88, 240);
+}
